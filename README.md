@@ -1,6 +1,8 @@
-O IBGE disponibiliza para [arquivos shape de setores censitários em seu FTP](ftp://geoftp.ibge.gov.br/malhas_digitais/censo_2010/setores_censitarios). Não há maneira de baixar todos os arquivos, é preciso acessar um a um.
+O IBGE disponibiliza para [arquivos shape de setores censitários em seu FTP](ftp://geoftp.ibge.gov.br/malhas_digitais/censo_2010/setores_censitarios). Não há maneira de baixar todos os arquivos de uma só vez, é preciso acessar um a um. Uma solução alternativa é usar o programa de linha de comando [wget](http://gnuwin32.sourceforge.net/packages/wget.htm), que pode ser instalado das seguintes maneiras:
 
-Uma solução alternativa é usar o programa de linha de comando [wget](http://gnuwin32.sourceforge.net/packages/wget.htm). No linux ele pode ser instalado com `apt-get install wget` e no OSX com `brew install wget` (se o gerenciador de pacotes [brew](http://brew.sh/) estiver instalado). Já no Windows é preciso baixar o [arquivo de instalação](https://sourceforge.net/projects/gnuwin32/files/wget/1.11.4-1/wget-1.11.4-1-setup.exe/download).
+* Windows: [Instalador executável](https://eternallybored.org/misc/wget/)
+* linux: `apt-get install wget`
+* OSX: `brew install wget` (necessita do gerenciador de pacotes [brew](http://brew.sh/))
 
 # Como baixar os arquivos
 
